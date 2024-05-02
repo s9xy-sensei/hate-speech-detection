@@ -22,7 +22,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 
 # Streamlit app title
-st.title("Hate Speech Detection App")
+st.title("Hate Speech Detection App - Arjun Tomar")
 
 # Input for choice
 input_choice = st.radio("Select Input Type:", ["Text Input", "Twitter URL", "Upload Image"])
